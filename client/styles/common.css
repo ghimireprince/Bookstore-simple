@@ -3,9 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+.underline{
+    height: 3px;
+    background: brown;
+    width: 24.2%;
+    margin: 5px 0;
+}
+.underline-tertiary{
+    height: 2px;
+    background: forestgreen;
+    width: 90%;
+    margin: 1px 0;
+}
 h1{
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1.25em;
+    color: #0d8c5d;
+    letter-spacing: 4px;
 }
 h2{
     font-weight: bold;
@@ -13,7 +27,9 @@ h2{
 }
 h3{
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1em;
+    color: mediumvioletred;
+    letter-spacing: 3px;
 }
 
 h4{
