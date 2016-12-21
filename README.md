@@ -16,4 +16,13 @@
 <li>Added common styles like reset h tags and primary navbar</li>
 <li>Primary Header with search bar</li>
 <li>Added Secondary Navigation</li>
+<li>Added banner image</li>
+<li>Added about us section</li>
+<li>Added aside part</li>
+<li>Added bestsellers</li>
+<li>Added footer of website</li>
 <ul>
+<h5>v0.0.1</h5>
+<ul>
+<li></li>
+</ul>
