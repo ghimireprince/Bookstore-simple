@@ -124,4 +124,53 @@ h4{
 .secondaryHeaderContainer .secondaryNavigation li a{
     text-decoration: none;
 }
-
+.websiteFooter{
+    background: #dddddd;
+}
+.websiteFooter .footerContainer{
+    padding: 20px;
+    width: 100%;
+    height: 180px;
+}
+.websiteFooter .footerContainer .logoContainer{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding: 65px 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    letter-spacing: 5px;
+    color: #0db07a;
+}
+.websiteFooter .footerContainer .addressContainer{
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+.websiteFooter .footerContainer .addressContainer .addressHead{
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #333333;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+.websiteFooter .footerContainer .socialContainer{
+    float: left;
+    width: 33%;
+    text-align: left;
+}
+.websiteFooter .footerContainer .socialContainer .socialHeader{
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #333333;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.websiteFooter .footerContainer .socialContainer .socialimagelist{
+    list-style: none;
+}
+.websiteFooter .footerContainer .socialContainer .socialImageListItem{
+    display: inline-block;
+}

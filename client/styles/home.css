@@ -43,4 +43,52 @@
     text-decoration: none;
     color: darkslategray;
 }
-
+.bestsellers{
+    padding: 30px;
+}
+.bestsellers header .underline{
+    width: 434px;
+}
+.bestsellers .bestsellersContainer{
+    padding: 20px 10px;
+}
+.bestsellers .bestsellersContainer .categoryBestsellers header .underline-tertiary{
+    width: 260px;
+    margin: 5px 0 10px 0;
+}
+.bestsellers .bestsellersContainer .categoryBestsellers .categoryBestsellerContainer{
+    padding: 10px 15px;
+    margin-bottom: 30px;
+}
+.bestsellers .bestsellersContainer .categoryBestsellers .bestsellerList{
+    list-style: none;
+}
+.bestsellersContainer .categoryBestsellers .bestsellerList .bestsellerListImage{
+    width: 150px;
+    height: 200px;
+}
+.bestsellersContainer .bestsellerList .bestsellerListItem{
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+}
+.bestsellersContainer .bestsellerList .bestsellerListItem .bestsellerName{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #555555;
+    padding: 5px;
+}
+.bestsellersContainer .bestsellerList .bestsellerListItem .bestsellerPrice{
+    font-weight: bold;
+    font-size: 1em;
+    color: orangered;
+    padding: 5px;
+}
+.bestsellersContainer .bestsellerList .bestsellerListItem input{
+    width: 200px;
+    height:35px;
+    background: indianred;
+    color: whitesmoke;
+    border: solid 1px orange;
+    margin: 10px;
+}
