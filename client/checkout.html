@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konfinity Books - Checkout</title>
+    <link rel="stylesheet" type="text/css" href="styles/common.css">
+    <link rel="stylesheet" type="text/css" href="styles/checkout.css">
+</head>
+<body>
+<nav class="primaryNavigation">
+    <div class="navigationContainer">
+        <div class="logoContainer">
+            <span class="logo">Konfinity</span>
+        </div>
+        <div class="headerControls">
+            <input class="searchBar" type="text" placeholder="Search for cool stuffs">
+            <ul class="headerMenus">
+                <li class="headerProfile">Welcome Guest</li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<nav class="secondaryHeaderContainer">
+    <ul class="secondaryNavigation">
+        <li><a href="#">HOME</a></li>
+        <li><a href="/blog">BLOG</a></li>
+        <li><a href="/books">OUR BOOKS</a></li>
+        <li><a href="/findus">FIND US</a></li>
+        <li><a href="contactus">CONTACT US</a></li>
+        <li><a href="checkout">Checkout</a></li>
+        <li><a href="/gifts">GIFTS</a></li>
+    </ul>
+</nav>
+<section class="checkoutSection">
+<header class="checkoutPageHeader">
+    <div>Checkout</div>
+</header>
+<section class="checkout">
+    <div class="checkoutContainer">
+        <form class="checkoutForm">
+            <fieldset class="personalForm">
+                <legend>Personal Details</legend>
+                <label for = "firstname" class="label">First Name</label>
+                <input type="text" class="textInput" name="firstname" id ="firstname">
+                <div class="clear"></div>
+                <label for="lastname" class="label">Last Name</label>
+                <input type="text" class="textInput" name="lastname" id="lastname">
+                <div class="clear"></div>
+                <label for = "email" class="label">Email</label>
+                <input type="text" class="textInput" name="email" id ="email">
+                <div class="clear"></div>
+                <label for = "phone" class="label">Phone Number</label>
+                <input type="tel" class="textInput" name="phone" id ="phone">
+                <div class="clear"></div>
+
+                <label for = "address" class="label">Address</label>
+                <textarea type="text" class="textInput" name="address" id ="address" rows="4"></textarea>
+                <div class="clear"></div>
+
+                <label for = "zip" class="label">Zip Code</label>
+                <input type="number" class="textInput" name="zip" id ="zip" >
+                <div class="clear"></div>
+
+                <label for = "city" class="label">City</label>
+                <input type="text" class="textInput" name="city" id ="city" >
+                <div class="clear"></div>
+
+                <label for = "remark" class="label">Remark</label>
+                <textarea type="text" class="textInput" name="remark" id ="remark" rows="4"></textarea>
+                <div class="clear"></div>
+            </fieldset>
+            <fieldset>
+                <legend>Order Details</legend>
+                <label for="requestedTime" class="label">Delivery Date</label>
+                <input type="date" id="requestedTime" class="textInput" name="requestedTime">
+                <div class="clear"></div>
+                <label for="color" class="label">Wrap Color</label>
+                <input type="color" id="color" class="textInput" name="color">
+            </fieldset>
+            <div class="submitContainer">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</section>
+</section>
+<footer class="websiteFooter">
+    <div class="footerContainer">
+        <div class="logoContainer">
+            <span class="logo">Konfinity</span>
+        </div>
+        <div class="addressContainer">
+            <p class="addressHead">Visit us at:</p>
+            <address>
+                1667 1st floor sushant lok <br>
+                block c, phase 1 Gurgaon, Haryana<br>
+                India
+            </address>
+        </div>
+        <div class="socialContainer">
+            <p class="socialHeader">
+                follow us at:
+            </p>
+            <div class="socialImageContainer">
+                <ul class="socialImageList">
+                    <li class="socialImageListItem">
+                        <img class="socialImage" src="assets/fb.jpg" alt="Fb Image">
+                        <img class="socialImage" src="assets/twitter.jpg" alt="twitter Image">
+                        <img class="socialImage" src="assets/insta.jpg" alt="insta Image">
+                        <img class="socialImage" src="assets/reddit.jpg" alt="Reddit Image">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
